@@ -1,0 +1,22 @@
+{
+  "name": "academia_accenture2025",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step-definitions/"
+  },
+  "devDependencies": {
+    "cypress": "12.17.4",
+    "cypress-cucumber-preprocessor": "4.3.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0"
+  }
+}
